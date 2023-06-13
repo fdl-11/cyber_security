@@ -9,6 +9,7 @@ echo "[6] learn5.sh      >>   5. If Statement"
 echo "[7] learn6.sh      >>   6. File test operators"
 echo
 echo "[8] comparison.sh  >>   Integer and String Comparison Flag/Symbol"
+echo "[9] help.sh        >>   Script Description and Navigator"
 echo
 echo "------------------------"
 echo
@@ -46,6 +47,8 @@ elif [ $num == 7 ]; then
 	$pkg learn6.sh
 elif [ $num == 8 ]; then
 	$pkg comparison.sh
+elif [ $num == 9 ]; then
+	$pkg help.sh
 fi
 
 
