@@ -20,6 +20,10 @@ echo -e
 read -p "username : " user
 echo "Ur username : $user"
 
+echo -e "username : \c"
+read uName
+echo $uName
+
 echo -e
 
 # Silent/Hidden Input

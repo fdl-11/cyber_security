@@ -22,15 +22,15 @@
 #   >> if [ "$a" <= "$b" ]
 #   >> (("$a" <= "$b"))
 
-[*] String Comparison [*]
-- is equal to (=) / (==)
-  >> if [ "$a" = "$b" ]
-  >> if [ "$a" == "$b" ]
-- is not equal to (!=)
-  >> if [ "$a" != "$b" ]
-- is less than, in ASCII alphabetical order (<)
-  >> if [[ "$a" < "$b" ]]
-- is greater than, in ASCII alphabetical order (>)
-  >> if [[ "$a" > "$b" ]]
-- string is null, has zero length (-z)
-  >> if [ -z $a ]
+# [*] String Comparison [*]
+# - is equal to (=) / (==)
+#   >> if [ "$a" = "$b" ]
+#   >> if [ "$a" == "$b" ]
+# - is not equal to (!=)
+#   >> if [ "$a" != "$b" ]
+# - is less than, in ASCII alphabetical order (<)
+#   >> if [[ "$a" < "$b" ]]
+# - is greater than, in ASCII alphabetical order (>)
+#   >> if [[ "$a" > "$b" ]]
+# - string is null, has zero length (-z)
+#   >> if [ -z $a ]
