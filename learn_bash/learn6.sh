@@ -70,3 +70,5 @@ then
 else
 	echo "$file_name empty"
 fi
+
+echo
