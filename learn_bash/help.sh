@@ -1,15 +1,16 @@
 #! /bin/bash
 
-echo "[1] hello.sh       >>   1. Introduction"
-echo "[2] learn2.sh      >>   2. Variables and Comment"
-echo "[3] learn3.sh      >>   3. Read User Input"
-echo "[4] learn4.sh      >>   4. Pass arguments to Bash Script"
-echo "[5] learn4_2.sh    >>      Simple Implementation of (2, 3, 4)"
-echo "[6] learn5.sh      >>   5. If Statement"
-echo "[7] learn6.sh      >>   6. File test operators"
+echo "[1] hello.sh        >>    Introduction"
+echo "[2] learn2.sh       >>    Variables and Comment"
+echo "[3] learn3.sh       >>    Read User Input"
+echo "[4] learn4.sh       >>    Pass arguments to Bash Script"
+echo "[5] learn4_2.sh     >>    Simple Implementation of (2, 3, 4)"
+echo "[6] learn5.sh       >>    If Statement"
+echo "[7] learn6.sh       >>    File test operators"
+echo "[8] learn7.sh       >>    Append output to the end of text file"
 echo
-echo "[8] comparison.sh  >>   Integer and String Comparison Flag/Symbol"
-echo "[9] help.sh        >>   Script Description and Navigator"
+echo "[9] comparison.sh   >>    Integer and String Comparison Flag/Symbol"
+echo "[10] help.sh        >>    Script Description and Navigator"
 echo
 echo "------------------------"
 echo
@@ -46,8 +47,10 @@ elif [ $num == 6 ]; then
 elif [ $num == 7 ]; then
 	$pkg learn6.sh
 elif [ $num == 8 ]; then
-	$pkg comparison.sh
+	$pkg learn7.sh
 elif [ $num == 9 ]; then
+	$pkg comparison.sh
+elif [ $num == 10 ]; then
 	$pkg help.sh
 fi
 
