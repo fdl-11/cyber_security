@@ -1,36 +1,40 @@
 #! /bin/bash
 
-# [*] Integer Comparison [*]
-# - is equal to (-eq)
-#   >> if [ "$a" -eq "$b" ]
-# - is not equal to (-ne)
-#   >> if [ "$a" -ne "$b" ]
-# - is greater than (-gt) / (>)
-#   >> if [ "$a" -gt "$b" ]
-#   >> if [ "$a" > "$b" ]
-#   >> (("$a" > "$b"))
-# - is greater than or equal to (-ge) / (>=)
-#   >> if [ "$a" -ge "$b" ]
-#   >> if [ "$a" >= "$b" ]
-#   >> (("$a" >= "$b"))
-# - is less than (-lt) / (<)
-#   >> if [ "$a" -lt "$b" ]
-#   >> if [ "$a" < "$b" ]
-#   >> (("$a" < "$b"))
-# - is less than or equal to (-le) / (<=)
-#   >> if [ "$a" -le "$b" ]
-#   >> if [ "$a" <= "$b" ]
-#   >> (("$a" <= "$b"))
-
-# [*] String Comparison [*]
-# - is equal to (=) / (==)
-#   >> if [ "$a" = "$b" ]
-#   >> if [ "$a" == "$b" ]
-# - is not equal to (!=)
-#   >> if [ "$a" != "$b" ]
-# - is less than, in ASCII alphabetical order (<)
-#   >> if [[ "$a" < "$b" ]]
-# - is greater than, in ASCII alphabetical order (>)
-#   >> if [[ "$a" > "$b" ]]
-# - string is null, has zero length (-z)
-#   >> if [ -z $a ]
+echo "[*] Integer Comparison [*]"
+echo
+echo "- is equal to (-eq)"
+echo "  >> if [ "$a" -eq "$b" ]"
+echo "- is not equal to (-ne)"
+echo "  >> if [ "$a" -ne "$b" ]"
+echo "- is greater than (-gt) / (>)"
+echo "  >> if [ "$a" -gt "$b" ]"
+echo "  >> if [ "$a" > "$b" ]"
+echo "  >> (("$a" > "$b"))"
+echo "- is greater than or equal to (-ge) / (>=)"
+echo "  >> if [ "$a" -ge "$b" ]"
+echo "  >> if [ "$a" >= "$b" ]"
+echo "  >> (("$a" >= "$b"))"
+echo "- is less than (-lt) / (<)"
+echo "  >> if [ "$a" -lt "$b" ]"
+echo "  >> if [ "$a" < "$b" ]"
+echo "  >> (("$a" < "$b"))"
+echo "- is less than or equal to (-le) / (<=)"
+echo "  >> if [ "$a" -le "$b" ]"
+echo "  >> if [ "$a" <= "$b" ]"
+echo "  >> (("$a" <= "$b"))"
+echo
+echo "--------------"
+echo
+echo "[*] String Comparison [*]"
+echo
+echo "- is equal to (=) / (==)"
+echo "  >> if [ "$a" = "$b" ]"
+echo "  >> if [ "$a" == "$b" ]"
+echo "- is not equal to (!=)"
+echo "  >> if [ "$a" != "$b" ]"
+echo "- is less than, in ASCII alphabetical order (<)"
+echo "  >> if [[ "$a" < "$b" ]]"
+echo "- is greater than, in ASCII alphabetical order (>)"
+echo "  >> if [[ "$a" > "$b" ]]"
+echo "- string is null, has zero length (-z)"
+echo "  >> if [ -z $a ]"
