@@ -71,6 +71,9 @@ elif [ $task == 2 ]; then
 	 		command="nano"
 	 	fi
 	fi
+else
+	echo "Wrong input..."
+	exit
 fi
 
 if [ $num == 1 ]; then
@@ -99,6 +102,9 @@ elif [ $num == 12 ]; then
 	$command comparison.sh
 elif [ $num == 13 ]; then
 	$command help.sh
+else
+	echo "Wrong input..."
+	exit
 fi
 
 
