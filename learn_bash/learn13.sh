@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # learn13.sh
-# title = The Case Statement examples
+# title = The Case Statement examples with Regex
 
 echo -e "Enter some character : \c"
 read value
