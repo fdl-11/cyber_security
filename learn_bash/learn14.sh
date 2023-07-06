@@ -1,6 +1,6 @@
 #! /bin/bash
 
-# learn 13
+# learn 14
 # title : Array Variables
 
 os=('kali' 'windows' 'ubuntu')

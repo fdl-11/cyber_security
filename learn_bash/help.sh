@@ -10,10 +10,14 @@ echo "[7 ] learn7.sh        >>    Append output to the end of text file"
 echo "[8 ] learn8.sh        >>    Logical AND operators"
 echo "[9 ] learn9.sh        >>    Logical OR operators"
 echo "[10] learn10.sh       >>    Perform Arithmetic Operations"
+echo "[11] learn11.sh       >>    Floating point in Math Operation"
+echo "[12] learn12.sh       >>    The Case Statement"
+echo "[13] learn13.sh       >>    The Case Statement with regex"
+echo "[14] learn14.sh       >>    Array Variables"
 echo
-echo "[11] greeting.sh      >>    Greeting script w/ Implementation of (2, 3, 4)"
-echo "[12] comparison.sh    >>    Integer and String Comparison Flag/Symbol"
-echo "[13] help.sh          >>    Script Description and Navigator"
+echo "[91] greeting.sh      >>    Greeting script w/ Implementation of (2, 3, 4)"
+echo "[92] comparison.sh    >>    Integer and String Comparison Flag/Symbol"
+echo "[93] help.sh          >>    Script Description and Navigator"
 echo
 echo "[99] Exit"
 echo
@@ -97,10 +101,18 @@ elif [ $num == 9 ]; then
 elif [ $num == 10 ]; then
 	$command learn10.sh
 elif [ $num == 11 ]; then
-	$command greeting.sh
+	$command learn11.sh
 elif [ $num == 12 ]; then
-	$command comparison.sh
+	$command learn12.sh
 elif [ $num == 13 ]; then
+	$command learn13.sh
+elif [ $num == 14 ]; then
+	$command learn14.sh
+elif [ $num == 91 ]; then
+	$command greeting.sh
+elif [ $num == 92 ]; then
+	$command comparison.sh
+elif [ $num == 93 ]; then
 	$command help.sh
 else
 	echo "Wrong input..."
